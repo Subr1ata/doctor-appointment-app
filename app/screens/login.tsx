@@ -9,6 +9,7 @@ import {
 import React from "react";
 import app from "./../../assets/images/app.png";
 import { Colors } from "react-native/Libraries/NewAppScreen";
+import SignInWithOAuth from "../components/SignInWithOAuth";
 
 export default function Login() {
   return (
@@ -30,6 +31,7 @@ export default function Login() {
         <Text style={{ textAlign: "center", marginTop: 20 }}>
           Book Appointment Effortlessly and manage your health journey
         </Text>
+        <SignInWithOAuth />
       </View>
     </View>
   );
