@@ -26,7 +26,7 @@ export default function SearchBar({ setSearchText }: SearchBarProps) {
         <TextInput
           placeholder="Search"
           onChangeText={(value) => setSearchInput(value)}
-          style={{ width: "100%" }}
+          style={{ width: "100%", fontWeight: 'bold' }}
           onSubmitEditing={() => setSearchText(searchInput)}
         />
       </View>

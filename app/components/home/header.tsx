@@ -30,8 +30,8 @@ export default function Header() {
           style={{ width: 45, height: 45, borderRadius: 99 }}
         />
         <View>
-          <Text>Hello, 👋</Text>
-          <Text style={{ fontSize: 18, fontWeight: "bold" }}>
+          <Text style={{ fontFamily: 'appfont' }}>Hello, 👋</Text>
+          <Text style={{ fontSize: 18, fontFamily: 'appfont-bold' }}>
             {user.fullName}
           </Text>
         </View>
